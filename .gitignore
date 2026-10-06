@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+venv/
+env/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Build / cache
+build/
+dist/
+.eggs/
+
+# IDE / OS
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
